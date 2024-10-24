@@ -24,6 +24,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vwm;
 .container__botao:checked~.list-menu{
     display: block;
 }
@@ -31,4 +32,14 @@
 list-menu__item{
     padding: 1em;
     background-color: white;
+}
+.list-menu__titulo{
+   color: orange;
+}
+.list-menu__limk{
+    background: rgb(112, 112, 177);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
