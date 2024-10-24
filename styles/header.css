@@ -7,10 +7,11 @@
     display: inline-block;
 }
 .cabeçalho{
-    background-color: white;
+    background-color: rgb(233, 226, 226);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .container{
     display: flex;
@@ -19,4 +20,15 @@
 .container__imagem{
     padding: 1em;
 }
+.list-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+.container__botao:checked~.list-menu{
+    display: block;
+}
+.list-menu__titulo.
+list-menu__item{
+    padding: 1em;
+    background-color: white;
 }
