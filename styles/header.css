@@ -25,18 +25,19 @@
     position: absolute;
     top: 100%;
     width: 60vwm;
-.container__botao:checked~.list-menu{
+}
+.container__botao:checked~.lista-menu{
     display: block;
 }
-.list-menu__titulo.
-list-menu__item{
+.list-menu__titulo,
+.lista-menu__item{
     padding: 1em;
     background-color: white;
 }
-.list-menu__titulo{
+.lista-menu__titulo{
    color: orange;
 }
-.list-menu__limk{
+.lista-menu__link{
     background: rgb(112, 112, 177);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
